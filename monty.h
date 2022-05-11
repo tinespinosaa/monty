@@ -1,7 +1,6 @@
 #ifndef __MONTY_H__
 #define __MONTY_H__
 
-
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -34,5 +33,6 @@ typedef struct instruction_s
 
 /****** functions */
 void pall();
-void push()
+void push();
 
+#endif
