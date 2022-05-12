@@ -39,6 +39,13 @@ char **tokenizer(char *input, char *delim);
 char **_strtok(char *str, char *delim);
 void _free(char **av);
 
+/***** errors */
+int usage_error(void);
+int open_failure(char *filename);
+
+/***** run */
+int monty_exec(FILE *pfile);
+
 /****** functions */
 void pall();
 void push();
