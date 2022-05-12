@@ -1,6 +1,9 @@
 #ifndef __MONTY_H__
 #define __MONTY_H__
 
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -30,6 +33,11 @@ typedef struct instruction_s
         char *opcode;
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+
+/****** tokens helpers */
+char **tokenizer(char *input, char *delim);
+char **_strtok(char *str, char *delim);
+void _free(char **av);
 
 /****** functions */
 void pall();
