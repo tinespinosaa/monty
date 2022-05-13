@@ -61,16 +61,6 @@ user@ubuntu:~/monty$
 | <ul><li>[ ] stack</li></ul> | Sets the format of the data to a stack (LIFO). This is the default behavior of the program. |
 | <ul><li>[ ] queue</li></ul> | Sets the format of the data to a queue (FIFO). |
 
-## Respository Files Description
-
-| **File** | **Description** |
-|----------|-----------------|
-| monty.h | Header file containing all the functions prototypes, structs and standard C libraries included |
-| monty_main.c | Core of the program - Handle all the conections. |
-| monty_run.c | Function that reads the standard input and stores the info. |
-| errors.c | Function that splits a string into tokens. |
-| README.md | Readme file with all the information need to run **monty** interpreter |
-
 ## Usage Examples
 
 ### push / pall:
